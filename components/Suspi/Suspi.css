@@ -1,0 +1,36 @@
+:root{
+    --color1:#fff;
+    --color2:#3dac3d;
+    --color3:#000;
+    --color4:#f5f4f4;
+    --color5: #424242;
+    --color6: #7a7a7a;
+}
+.suspi{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background: var(--color4);
+}
+.suspi-text h1{
+    text-align: center;
+    color: var(--color3);
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2rem;
+}
+.suspi-text button{
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px;
+    border: none;
+    background: var(--color2);
+    color: var(--color4);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.Btn{
+    display: flex;
+    justify-content: center;
+}

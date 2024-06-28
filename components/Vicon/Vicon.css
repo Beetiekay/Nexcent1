@@ -1,0 +1,81 @@
+:root{
+    --color1:#fff;
+    --color2:#3dac3d;
+    --color3:#000;
+    --color4:#f5f4f4;
+    --color5: #424242;
+    --color6: #7a7a7a;
+}
+.vicon{
+    padding: 25px 70px;
+    background: var(--color4);
+}
+.vicon-wrap{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+.vicon-img img{
+    width: 100%;
+    border-radius: 8px;
+}
+.vicon-text{
+    width: 100%;
+}
+.vicon-text p{
+    color: var(--color5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px
+}
+.vicon-text .sip{
+    font-size: 20px;
+    color: var(--color2);
+    font-weight: 600;
+}
+.vicon-text .ash{
+    color: var(--color6);
+}
+.vicon-i{
+    font-size: 30px;
+    color: var(--color5);
+}
+.blue{
+    color: rgb(26, 58, 238);
+}
+.l-text{
+    display: flex;
+    justify-content: space-between;
+}
+.meet-all{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+@media( max-width: 805px){
+    .vicon-img img{
+        width: 20vh;
+    }
+}
+@media( max-width: 775px){
+    .vicon-text h1{
+        font-size: 30px;
+    }
+    .vicon-wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media( max-width: 610px){
+    .vicon-wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .l-text{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

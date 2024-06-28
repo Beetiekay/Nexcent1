@@ -1,0 +1,138 @@
+:root{
+    --color1:#fff;
+    --color2:#3dac3d;
+    --color3:#000;
+    --color4:#f5f4f4;
+    --color5: #424242;
+    --color6: #7a7a7a;
+}
+.footer-wrap{
+    padding: 25px 70px;
+    background: #11161b;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.social-l{
+    width: 40%;
+}
+.social-l p{
+    padding: 0px 15px;
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--color6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+}
+.f-logo{
+    height: 20vh;
+}
+.f-logo img{
+    width: 37%;
+    margin-left: -25px;
+}
+.i-link{
+    display: flex;
+    gap: 2rem;
+    padding: 0px 15px;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+.media-link{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background: var(--color5);
+    color: var(--color6);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.media-link:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-out;
+    border: 1px solid var(--color2);
+    color: var(--color2);
+}
+.mdd{
+    display: flex;
+    align-items: center;
+}
+.mdtxt{
+    display: flex;
+    gap: 2rem;
+}
+.links span{
+    color: var(--color6);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.links ul li {
+    font-size: 15px;
+    list-style: none;
+    margin-top: 8px;
+}
+.links li a{
+    font-size: 14px;
+    color: var(--color6);
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hov:hover{
+     transform: translatex(10px);
+     transition: all 0.3s ease-in-out;
+}
+.gmail{
+    display: flex;
+    background: var(--color6);
+    padding: 7px;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+.gmail input{
+    background: none;
+    border: none;
+    outline: none;
+}
+.gmail ::placeholder{
+    color: #bdbdbd;
+}
+.deliver-i{
+    cursor: pointer;
+    color: var(--color4);
+    display: flex;
+    align-items: center;
+}
+.deliver-i:hover{
+    transform: scale(1.1);
+}
+@media( max-width: 805px){
+    .mdtxt{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .f-logo img{
+    width: 100%;
+}
+@media( max-width: 775px){
+    .i-link{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+/* @media( max-width: 610px){ */
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mdtxt{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

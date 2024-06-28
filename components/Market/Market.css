@@ -1,0 +1,137 @@
+:root{
+    --color1:#fff;
+    --color2:#3dac3d;
+    --color3:#000;
+    --color4:#f5f4f4;
+    --color5: #424242;
+    --color6: #7a7a7a;
+}
+.market{
+    padding: 25px 90px;
+}
+.caring-text{
+    text-align: center;
+}
+.caring-text h1{
+    color: var(--color3);
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+}
+.caring-text p{
+    width: 50%;
+    font-weight: 600;
+    color: var(--color5);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1.5rem;
+}
+.ctr{
+    display: flex;
+    justify-content: center;
+}
+.vtre{
+    display: flex;
+    justify-content: space-between;
+}
+.box-img img{
+    width: 80%;
+    border-radius: 8px;
+    border-left: 5px solid var(--color2);
+    border-right: 5px solid var(--color2);
+}
+.ls img{
+    width: 22vw;
+}
+.boxtext-wrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 8rem;
+}
+.boxTxt{
+    margin-top: -70px;
+    width: 23%;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    background: #e7e6e6;
+    border-radius: 1rem;
+    box-shadow: 0px 8px 10px rgb(0 0 0 /20%);
+}
+.nv{
+    margin-left: 1.5rem;
+}
+.boxTxt:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-out;
+    border-left: 5px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+.boxTxt h4{
+    font-size: 14px;
+    color: var(--color6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+}
+.boxTxt p{
+    font-weight: 600;
+    color: var(--color2);
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media( max-width: 805px){
+    .boxTxt{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .box-img img{
+        width: 100%;
+    }
+    .boxtext-wrap{
+        display: block;
+        margin-top: 8rem;
+    }
+    .nv{
+        margin-left: 0rem;
+    }
+    .vtre{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media( max-width: 775px){
+    .box-img img{
+        width: 100%;
+    }
+    .boxTxt h1{
+        font-size: 30px;
+    }
+    .vtre{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boxtext-wrap{
+        display: block;
+        margin-top: 8rem;
+    }
+    .nv{
+        margin-left: 0rem;
+    }
+}
+@media( max-width: 610px){
+    .box-img img{
+        width: 100%;
+    }
+    .vtre{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boxtext-wrap{
+        display: block;
+        margin-top: 8rem;
+    }
+    .nv{
+        margin-left: 0rem;
+    }
+}

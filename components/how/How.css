@@ -1,0 +1,60 @@
+:root{
+    --color1:#fff;
+    --color2:#3dac3d;
+    --color3:#000;
+    --color4:#f5f4f4;
+    --color5: #424242;
+    --color6: #7a7a7a;
+}
+.how{
+    padding: 25px 70px;
+}
+.How-wrap{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+.How-img img{
+    width: 100%;
+}
+.How-text{
+    width: 100%;
+}
+.How-text h1{
+   color: var(--color5);
+   font-size: 30px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 15px;
+}
+.How-text p{
+    color: var(--color5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px
+}
+.How-text button{
+    padding: 15px 25px;
+    border: none;
+    background: var(--color2);
+    color: var(--color4);
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media( max-width: 805px){
+    .How-img img{
+        width: 20vh;
+    }
+}
+@media( max-width: 775px){
+    .How-wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media( max-width: 610px){
+    .How-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

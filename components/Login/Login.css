@@ -1,0 +1,63 @@
+:root{
+    --color1:#fff;
+    --color2:#3dac3d;
+    --color3:#000;
+    --color4:#f5f4f4;
+    --color5: #424242;
+    --color6: #7a7a7a;
+}
+.Log{
+    padding: 25px 70px;
+}
+.log-wrap{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+.log-img img{
+    width: 70%;
+}
+.log-text{
+    width: 100%;
+}
+.log-text h1{
+   color: var(--color5);
+   font-size: 30px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 15px;
+}
+.log-text p{
+    color: var(--color5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.log-text button{
+    padding: 15px 25px;
+    border: none;
+    background: var(--color2);
+    color: var(--color4);
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media( max-width: 805px){
+    .log-img img{
+        width: 20vh;
+    }
+}
+@media( max-width: 775px){
+    .log-text h1{
+        font-size: 30px;
+    }
+    .log-wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media( max-width: 610px){
+    .log-wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

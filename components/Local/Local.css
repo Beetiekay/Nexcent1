@@ -1,0 +1,63 @@
+:root{
+    --color1:#fff;
+    --color2:#3dac3d;
+    --color3:#000;
+    --color4:#f5f4f4;
+    --color5: #424242;
+    --color6: #7a7a7a;
+}
+.local{
+    width: 100%;
+    padding: 40px 90px; 
+    background: var(--color4);
+}
+.local-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.l-txt{
+    display: flex;
+    align-items: center;
+}
+.l-txt h1{
+    color: var(--color5);
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 4px;
+}
+.l-txt span{color: var(--color2);}
+.l-txt p{
+    color: var(--color5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.f-line{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 15px;
+}
+.f-line:hover{
+    border-bottom: 2px solid var(--color2);
+    cursor: pointer;
+}
+.f-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: var(--color2);
+}
+.f-text h4{
+    color: var(--color5);
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.f-text p{
+    font-weight: 600;
+    color: var(--color5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
